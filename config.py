@@ -1,0 +1,1 @@
+EndpointURL = "http://openlibrary.org/search.json?q="
