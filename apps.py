@@ -11,5 +11,3 @@ api = Api(app)
 api.add_resource(resource.CheckHealth, '/')
 api.add_resource(resource.SearchBooks, '/api/v1/searchbooks')
 
-if __name__ == '__main__':
-    app.run(debug=True,host="0.0.0.0")
